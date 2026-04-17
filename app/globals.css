@@ -1,26 +1,52 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+--background: #ffffff;
+--foreground: #171717;
+--light-red-bg: hsla(0, 100%, 67%, 0.1);
+--orangey-yellow-bg: hsla(39, 100%, 56%, 0.1);
+--green-teal-bg: hsla(166, 100%, 37%, 0.1);
+--cobalt-blue-bg: hsla(234, 85%, 45%, 0.1);
+/*### Primary*/
+--Light-red: hsl(0, 100%, 67%);
+--Orangey-yellow: hsl(39, 100%, 56%);
+--Green-teal: hsl(166, 100%, 37%);
+--Cobalt-blue: hsl(234, 85%, 45%);
+
+/* ### Gradients */
+--Light-slate-blue: hsl(252, 100%, 67%);
+--Light-royal-blue: hsl(241, 81%, 54%);
+--bg-gradient-top: hsl(252, 100%, 67%);
+--bg-gradient-bottom: hsl(241, 81%, 54%);
+--Violet-blue: hsla(256, 72%, 46%, 1);
+--Persian-blue: hsla(241, 72%, 46%, 0);
+--circle-gradient-top: hsla(256, 72%, 46%, 1);
+--circle-gradient-bottom: hsla(241, 72%, 46%, 0);
+/* ### Neutral */
+--White: hsl(0, 0%, 100%);
+--Pale-blue: hsl(221, 100%, 96%);
+--Light-lavender: hsl(241, 100%, 89%);
+--Dark-gray-blue: hsl(224, 30%, 27%);
+--Dark-light:  hsl(0, 0%, 20%);
+
+--Font-size-paragraph: 18px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--Pale-blue);
+}
+
+@media screen and (min-width: 1440px) {
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
 }

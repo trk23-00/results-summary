@@ -1,0 +1,46 @@
+.summary-line{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    font-family: var(--font-hanken);
+    font-weight: 700;
+    padding: 20px;
+}
+.summary-type--red{
+    color: var(--Light-red);
+    background: var(--light-red-bg);
+}
+
+.summary-type--yellow{
+    color: var(--Orangey-yellow);
+    background: var(--orangey-yellow-bg);
+}
+
+.summary-type--blue{
+    color: var(--Cobalt-blue);
+    background: var(--cobalt-blue-bg);
+}
+.summary-type--green{
+    color: var(--Green-teal);
+    background: var(--green-teal-bg);
+}
+
+.line-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.line-right{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.line_score1{
+    color: var(--Dark-gray-blue);
+}
+.line_score2{
+    color: hsl(0, 0%, 60%);
+}

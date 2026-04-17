@@ -1,0 +1,22 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--White);
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.title-summary{
+    font-family: var(--font-hanken);
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--Dark-gray-blue);
+}
+
+@media screen and (min-width: 1440px) {
+    .box{
+        display: flex;
+        width: 50%;
+    }
+}
