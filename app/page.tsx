@@ -10,7 +10,7 @@ export default function Home() {
         score1={80}
         score2={92}
         score3={61}
-        score4={72}
+        score4={73}
       />
     </main>
   );

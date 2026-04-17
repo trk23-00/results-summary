@@ -14,20 +14,20 @@ export default function Summary({score1,score2,score3,score4}: data) {
     <div className='box'>
       <h3 className='title-summary'>Summary</h3>
       <Line
-        icon="/icon-memory.svg"
-        label_ico="Icon 1"
-        label_description="Memory"
-        score={score1}
-        total={100}
-        typecolor="yellow"
-      />
-      <Line
         icon="/icon-reaction.svg"
         label_ico="Icon 1"
         label_description="Reaction"
-        score={score2}
+        score={score1}
         total={100}
         typecolor="red"
+      />
+      <Line
+        icon="/icon-memory.svg"
+        label_ico="Icon 1"
+        label_description="Memory"
+        score={score2}
+        total={100}
+        typecolor="yellow"
       />
       <Line
         icon="/icon-verbal.svg"
